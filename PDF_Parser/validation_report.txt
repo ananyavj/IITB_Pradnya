@@ -1,0 +1,42 @@
+================================================================================
+MARKDOWN VALIDATION REPORT
+================================================================================
+
+================================================================================
+📄 Validating: Sample_Math_Unit1.md
+================================================================================
+
+✨ Successes:
+  ✅ Frontmatter is valid
+  ✅ Metadata file exists and is valid
+  ✅ No formatting issues detected
+  📊 Statistics: 437 lines, 2272 words, 1 headings
+
+================================================================================
+📄 Validating: Sample_Science_Unit1.md
+================================================================================
+
+✨ Successes:
+  ✅ Frontmatter is valid
+  ✅ Metadata file exists and is valid
+  ✅ No formatting issues detected
+  📊 Statistics: 308 lines, 2544 words, 7 headings
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+
+Total files validated: 2
+✅ Passed: 2
+⚠️  Warnings: 0
+❌ Failed: 0
+
+File                           Status     Issues   Warnings   Lines    Words   
+--------------------------------------------------------------------------------
+Sample_Math_Unit1.md           ✅ PASS     0        0          437      2272    
+Sample_Science_Unit1.md        ✅ PASS     0        0          308      2544    
+
+================================================================================
+
+✨ Validation complete!
+📄 Report saved to: c:\Projects\AI Aarohan - Copy\PDF_Parser\validation_report.txt

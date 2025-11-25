@@ -1,0 +1,22 @@
+{
+  "lesson_id": "science_unit1",
+  "subject": "Science",
+  "unit": 1,
+  "language": "en",
+  "source": "NCERT",
+  "filename": "Sample_Science_Unit1",
+  "page_count": 8,
+  "headings": [
+    "CHAPTER",
+    "Chemical Reactions",
+    "and Equations",
+    "Multiple Choice Questions",
+    "Short Answer Questions",
+    "Long Answer Questions"
+  ],
+  "skills_tags": [
+    "scientific_reasoning",
+    "observation",
+    "experimentation"
+  ]
+}

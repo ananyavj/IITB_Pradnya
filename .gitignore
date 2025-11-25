@@ -1,0 +1,25 @@
+# Node
+/frontend/node_modules/
+
+# Build outputs
+/frontend/dist/
+/frontend/build/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data inputs
+NCERT/
+YetToBeUploadedOnDrive/
+*.pdf
+
+# Binaries
+*.exe
