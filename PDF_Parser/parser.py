@@ -159,7 +159,7 @@ def extract_content(pdf_path, output_dir, images_dir):
         
     # Generate metadata JSON
     metadata_json = generate_metadata(base_name, full_text, metadata)
-    metadata_file = os.path.join(r"c:\Projects\AI Aarohan - Copy\PDF_Parser\metadata", f"{base_name}.json")
+    metadata_file = os.path.join(r"c:\Projects\AI Aarohan\PDF_Parser\metadata", f"{base_name}.json")
     with open(metadata_file, "w", encoding="utf-8") as f:
         import json
         json.dump(metadata_json, f, indent=2, ensure_ascii=False)
@@ -244,9 +244,9 @@ def extract_text_from_block(block):
 
 if __name__ == "__main__":
     # Configuration
-    INPUT_DIR = r"c:\Projects\AI Aarohan - Copy\PDF_Parser\input"
-    OUTPUT_DIR = r"c:\Projects\AI Aarohan - Copy\PDF_Parser\output"
-    IMAGES_DIR = r"c:\Projects\AI Aarohan - Copy\PDF_Parser\images"
+    INPUT_DIR = r"c:\Projects\AI Aarohan\PDF_Parser\input"
+    OUTPUT_DIR = r"c:\Projects\AI Aarohan\PDF_Parser\output"
+    IMAGES_DIR = r"c:\Projects\AI Aarohan\PDF_Parser\images"
     
     # Process all PDFs in input directory
     if not os.path.exists(INPUT_DIR):

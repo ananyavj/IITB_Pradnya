@@ -10,7 +10,7 @@ def create_full_text_corpus():
     """Concatenate all markdown files into full_text_corpus.txt"""
     
     # Define paths
-    project_dir = Path(r"c:\Projects\AI Aarohan - Copy")
+    project_dir = Path(r"c:\Projects\AI Aarohan")
     input_dir = project_dir / "FINAL_PARSED FILES_AND_METADATA_"
     output_file = project_dir / "full_text_corpus.txt"
     

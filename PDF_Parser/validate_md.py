@@ -285,10 +285,10 @@ class MarkdownValidator:
 
 if __name__ == "__main__":
     # Configuration
-    OUTPUT_DIR = r"c:\Projects\AI Aarohan - Copy\PDF_Parser\output"
-    IMAGES_DIR = r"c:\Projects\AI Aarohan - Copy\PDF_Parser\images"
-    METADATA_DIR = r"c:\Projects\AI Aarohan - Copy\PDF_Parser\metadata"
-    REPORT_FILE = r"c:\Projects\AI Aarohan - Copy\PDF_Parser\validation_report.txt"
+    OUTPUT_DIR = r"c:\Projects\AI Aarohan\PDF_Parser\output"
+    IMAGES_DIR = r"c:\Projects\AI Aarohan\PDF_Parser\images"
+    METADATA_DIR = r"c:\Projects\AI Aarohan\PDF_Parser\metadata"
+    REPORT_FILE = r"c:\Projects\AI Aarohan\PDF_Parser\validation_report.txt"
     
     # Redirect stdout to both console and file
     import sys

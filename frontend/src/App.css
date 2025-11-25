@@ -85,3 +85,38 @@
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    .shell-header {
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .shell-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(30, 30, 30, 0.95);
+        backdrop-filter: blur(10px);
+        padding: 1rem;
+        justify-content: space-around;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: none;
+        z-index: 1000;
+        gap: 0;
+    }
+
+    .shell-nav a {
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .shell-main {
+        padding-bottom: 5rem;
+        /* Space for bottom nav */
+    }
+}

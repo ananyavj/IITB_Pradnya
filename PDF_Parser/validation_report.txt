@@ -39,4 +39,4 @@ Sample_Science_Unit1.md        ✅ PASS     0        0          308      2544
 ================================================================================
 
 ✨ Validation complete!
-📄 Report saved to: c:\Projects\AI Aarohan - Copy\PDF_Parser\validation_report.txt
+📄 Report saved to: c:\Projects\AI Aarohan\PDF_Parser\validation_report.txt
